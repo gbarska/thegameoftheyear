@@ -1,0 +1,14 @@
+.testimonial-group > .row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-4 {
+    display: inline-block;
+  }
+  
+  /* Decorations */
+  .col-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
+  .col-4:nth-child(3n+1) { background: #c69; }
+  .col-4:nth-child(3n+2) { background: #9c6; }
+  .col-4:nth-child(3n+3) { background: #69c; }

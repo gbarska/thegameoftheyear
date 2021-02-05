@@ -1,0 +1,6 @@
+# Goty - Backend
+
+```
+npm install
+
+```

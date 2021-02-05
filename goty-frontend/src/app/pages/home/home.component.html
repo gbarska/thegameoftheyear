@@ -1,0 +1,27 @@
+<h2>
+    Game of the year!
+</h2>
+<hr>
+
+<div class="container testimonial-group">
+    <div class="row text-center">
+      <div class="col">
+          <div style="width: 800px;" *ngIf="resultados.length > 0">
+            <app-horizontal-bar-graphic [results]="resultados"></app-horizontal-bar-graphic>
+          </div>
+      </div>
+      <div class="col" *ngIf="loading && resultados.length <= 0" >
+        <img src="../../../assets/images/white-spin.gif" alt="" style="width: 50px;">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-12 col-md-3" style="padding: 10px;">
+            <a class="btn btn-primary" style="width: 100%;" [routerLink]="['/goty']" routerLinkActive="router-link-active" >Votar ahora</a>
+        </div>
+    </div>
+  </div>
+
+    
